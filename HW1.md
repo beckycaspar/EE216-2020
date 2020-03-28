@@ -12,7 +12,7 @@ There is a 8-bit FIFO whose input clock is 100MHz while output clock is 95MHz, s
 # Declaration of the top-level
 In this lab, you do not have to test the code on board, write a testbench and generate the right waveform. Please use the entity declaration as below：
 ```
-module fifo(
+module fifo_counter(
 	input clk,rst_n,
 	input wr_en,rd_en,            //write enable signal and read enable signal
 	input [7:0] buf_in,           // data input to be pushed to buffer
